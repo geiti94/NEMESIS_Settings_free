@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="backup_restore_items" translatable="false">
+        <item>Backup data</item>
+        <item>Restore data</item>
+    </string-array>
+    <string-array name="theme_items" translatable="false">
+        <item>Light theme</item>
+        <item>Dark theme</item>
+    </string-array>
+</resources>

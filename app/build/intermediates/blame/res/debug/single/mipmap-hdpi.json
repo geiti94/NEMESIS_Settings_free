@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master - Kopie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master - Kopie\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2_free\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2_free\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

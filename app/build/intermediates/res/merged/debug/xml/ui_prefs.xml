@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen android:icon="@drawable/ic_wubydax_1" android:title="@string/wuby1title" android:summary="@string/wuby1desc">
+        <PreferenceScreen android:title="@string/stsbrbutt" android:summary="@string/stsbrbuttdesc">
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Lock button on rightside" android:key="nemesis_rightcornerlock" android:defaultValue="0" android:summaryOn="enabled" android:summaryOff="disabled" />
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Home button on left side" android:key="nemesis_centerhome" android:defaultValue="0" android:summaryOn="enabled" android:summaryOff="disabled" />
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Recent buttonincenter" android:key="nemesis_leftcornertask" android:defaultValue="0" android:summaryOn="enabled" android:summaryOff="disabled" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_wubydax_2" android:title="@string/wuby2title" android:summary="@string/wuby2desc">
+        <PreferenceCategory android:title="@string/cmpnfp">
+                <PreferenceScreen android:title="@string/dvincu" android:summary="@string/shdvin">
+                    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Enabledeviceinfoview" android:key="device_info_visibility" android:defaultValue="false" android:summaryOn="@string/enabled" android:summaryOff="@string/Disabled" />
+                    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Infonamestextcolor" android:key="gear_info_names_color" android:defaultValue="\#ffffffff" />
+                    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="@string/Infovaluestextcolor" android:key="gear_info_values_color" android:defaultValue="\#ffffffff" />
+                    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/Devicemodel" android:key="device_model" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" />
+                    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/Androidversion" android:key="device_android_version" android:defaultValue="true" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
+                    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/Buildversion" android:key="device_build_version" android:defaultValue="true" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
+                    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/Batterylevel" android:key="device_battery_level" android:defaultValue="true" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
+                    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/Networkname" android:key="device_network_name" android:defaultValue="true" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
+                    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/WIFIinfo" android:key="device_wifi_info" android:defaultValue="true" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
+                    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/Nextalarm" android:key="device_next_alarm" android:defaultValue="true" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
+                    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="@string/Deviceuptime" android:key="device_up_time" android:defaultValue="true" android:summaryOn="@string/Shown" android:summaryOff="@string/Hidden" />
+                </PreferenceScreen>
+        </PreferenceCategory>
+        </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_wubydax_5" android:title="@string/rbtmenu" android:summary="@string/rbtmenudesc">
+        <PreferenceCategory android:title="@string/ShowHideButtons">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/QuickRebootButton" android:key="aurora_power_menu_mode" android:defaultValue="true" android:summaryOn="Nougat Style" android:summaryOff="Lollipop Style" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/Poweroff" android:key="killprocess_power_menu_data" android:defaultValue="true" android:summaryOn="@string/Willbeshown" android:summaryOff="@string/Currentlyremoved" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/RestartButton" android:key="killprocess_power_menu_restart" android:defaultValue="true" android:summaryOn="@string/Willbeshown" android:summaryOff="@string/Currentlyremoved" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/EmergencyModeButton" android:key="killprocess_power_menu_emergency" android:defaultValue="true" android:summaryOn="@string/Willbeshown" android:summaryOff="@string/Currentlyremoved" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/ScreencastMode" android:key="killprocess_power_menu_screenrecord" android:defaultValue="false" android:summaryOn="@string/Willbeshown" android:summaryOff="@string/Currentlyremoved" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/ScreenshotMode" android:key="killprocess_power_menu_screenshot" android:defaultValue="false" android:summaryOn="@string/Willbeshown" android:summaryOff="@string/Currentlyremoved" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/MobileData" android:key="killprocess_power_menu_data" android:defaultValue="false" android:summaryOn="@string/Willbeshown" android:summaryOff="@string/Currentlyremoved" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/AirplaneMode" android:key="killprocess_power_menu_airplane" android:defaultValue="false" android:summaryOn="@string/Willbeshown" android:summaryOff="@string/Currentlyremoved" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/FlashlightButton" android:key="killprocess_power_menu_flashlight" android:defaultValue="false" android:summaryOn="@string/Willbeshown" android:summaryOff="@string/Currentlyremoved" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_setting_grid_easymode" android:title="@string/hmag" android:summary="@string/hmagdesc">
+        <PreferenceCategory android:title="@string/General" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/HeadsUpNotifications" android:key="heads_up_notifications_enabled" android:defaultValue="true" android:summaryOn="@string/enabled" android:summaryOff="@string/disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/AdaptiveFastCharging" android:key="adaptive_fast_charging" android:defaultValue="true" android:summaryOn="@string/enabled" android:summaryOff="@string/disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="@string/WirelessFastCharging" android:key="wireless_fast_charging" android:defaultValue="true" android:summaryOn="@string/enabled" android:summaryOff="@string/disabled" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/ic_wubydax_4" android:title="@string/About" android:summary="@string/romdev">
+        <PreferenceScreen android:title="@string/offpage" android:key="about_key" android:summary="@string/visit">
+            <intent android:action="android.intent.action.VIEW" android:data="https://nemesisroms.com" />
+        </PreferenceScreen>
+        <Preference android:title="@string/aver" android:key="rom_ver" android:summary="@string/vernu" />
+        <Preference android:title="@string/PDA" android:key="rom_base" android:summary="@string/rombase" />
+        <Preference android:title="@string/Buildnumber" android:key="rom_name" android:summary="@string/romname" />
+        <Preference android:title="@string/Developer" android:key="rom_developer" android:summary="@string/devname" />
+        <PreferenceCategory android:title="@string/rc">
+            <Preference android:enabled="false" android:title="@string/Version" android:key="control_version" android:summary="@string/rcversnr" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+</PreferenceScreen>

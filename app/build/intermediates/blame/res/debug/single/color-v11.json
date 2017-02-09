@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master - Kopie\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master - Kopie\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2_free\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2_free\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master - Kopie\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2.1-master - Kopie\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2_free\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Gaetano\\Desktop\\Nemesis_Settings_V2_free\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    }
+]
